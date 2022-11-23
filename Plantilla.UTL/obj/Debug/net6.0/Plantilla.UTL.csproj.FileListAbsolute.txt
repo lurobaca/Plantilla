@@ -1,0 +1,12 @@
+C:\nova\Plantilla\PlantillaNova\Plantilla.UTL\bin\Debug\net6.0\Plantilla.UTL.deps.json
+C:\nova\Plantilla\PlantillaNova\Plantilla.UTL\bin\Debug\net6.0\Plantilla.UTL.dll
+C:\nova\Plantilla\PlantillaNova\Plantilla.UTL\bin\Debug\net6.0\Plantilla.UTL.pdb
+C:\nova\Plantilla\PlantillaNova\Plantilla.UTL\obj\Debug\net6.0\Plantilla.UTL.csproj.AssemblyReference.cache
+C:\nova\Plantilla\PlantillaNova\Plantilla.UTL\obj\Debug\net6.0\Plantilla.UTL.GeneratedMSBuildEditorConfig.editorconfig
+C:\nova\Plantilla\PlantillaNova\Plantilla.UTL\obj\Debug\net6.0\Plantilla.UTL.AssemblyInfoInputs.cache
+C:\nova\Plantilla\PlantillaNova\Plantilla.UTL\obj\Debug\net6.0\Plantilla.UTL.AssemblyInfo.cs
+C:\nova\Plantilla\PlantillaNova\Plantilla.UTL\obj\Debug\net6.0\Plantilla.UTL.csproj.CoreCompileInputs.cache
+C:\nova\Plantilla\PlantillaNova\Plantilla.UTL\obj\Debug\net6.0\Plantilla.UTL.dll
+C:\nova\Plantilla\PlantillaNova\Plantilla.UTL\obj\Debug\net6.0\refint\Plantilla.UTL.dll
+C:\nova\Plantilla\PlantillaNova\Plantilla.UTL\obj\Debug\net6.0\Plantilla.UTL.pdb
+C:\nova\Plantilla\PlantillaNova\Plantilla.UTL\obj\Debug\net6.0\ref\Plantilla.UTL.dll

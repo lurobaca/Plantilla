@@ -1,0 +1,12 @@
+C:\nova\Plantilla\PlantillaNova\Plantilla.SWL\bin\Debug\net6.0\Plantilla.SWL.deps.json
+C:\nova\Plantilla\PlantillaNova\Plantilla.SWL\bin\Debug\net6.0\Plantilla.SWL.dll
+C:\nova\Plantilla\PlantillaNova\Plantilla.SWL\bin\Debug\net6.0\Plantilla.SWL.pdb
+C:\nova\Plantilla\PlantillaNova\Plantilla.SWL\obj\Debug\net6.0\Plantilla.SWL.csproj.AssemblyReference.cache
+C:\nova\Plantilla\PlantillaNova\Plantilla.SWL\obj\Debug\net6.0\Plantilla.SWL.GeneratedMSBuildEditorConfig.editorconfig
+C:\nova\Plantilla\PlantillaNova\Plantilla.SWL\obj\Debug\net6.0\Plantilla.SWL.AssemblyInfoInputs.cache
+C:\nova\Plantilla\PlantillaNova\Plantilla.SWL\obj\Debug\net6.0\Plantilla.SWL.AssemblyInfo.cs
+C:\nova\Plantilla\PlantillaNova\Plantilla.SWL\obj\Debug\net6.0\Plantilla.SWL.csproj.CoreCompileInputs.cache
+C:\nova\Plantilla\PlantillaNova\Plantilla.SWL\obj\Debug\net6.0\Plantilla.SWL.dll
+C:\nova\Plantilla\PlantillaNova\Plantilla.SWL\obj\Debug\net6.0\refint\Plantilla.SWL.dll
+C:\nova\Plantilla\PlantillaNova\Plantilla.SWL\obj\Debug\net6.0\Plantilla.SWL.pdb
+C:\nova\Plantilla\PlantillaNova\Plantilla.SWL\obj\Debug\net6.0\ref\Plantilla.SWL.dll

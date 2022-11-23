@@ -1,0 +1,7 @@
+C:\nova\Plantilla\PlantillaNova\Plantilla.WCF\bin\Plantilla.WCF.dll.config
+C:\nova\Plantilla\PlantillaNova\Plantilla.WCF\bin\Plantilla.WCF.dll
+C:\nova\Plantilla\PlantillaNova\Plantilla.WCF\bin\Plantilla.WCF.pdb
+C:\nova\Plantilla\PlantillaNova\Plantilla.WCF\obj\Debug\Plantilla.WCF.csproj.AssemblyReference.cache
+C:\nova\Plantilla\PlantillaNova\Plantilla.WCF\obj\Debug\Plantilla.WCF.csproj.CoreCompileInputs.cache
+C:\nova\Plantilla\PlantillaNova\Plantilla.WCF\obj\Debug\Plantilla.WCF.dll
+C:\nova\Plantilla\PlantillaNova\Plantilla.WCF\obj\Debug\Plantilla.WCF.pdb
