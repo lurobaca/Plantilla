@@ -10,3 +10,15 @@ C:\nova\Plantilla\PlantillaNova\Plantilla.ENT\obj\Debug\net6.0\Plantilla.ENT.dll
 C:\nova\Plantilla\PlantillaNova\Plantilla.ENT\obj\Debug\net6.0\refint\Plantilla.ENT.dll
 C:\nova\Plantilla\PlantillaNova\Plantilla.ENT\obj\Debug\net6.0\Plantilla.ENT.pdb
 C:\nova\Plantilla\PlantillaNova\Plantilla.ENT\obj\Debug\net6.0\ref\Plantilla.ENT.dll
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\Plantilla.ENT\bin\Debug\net6.0\Plantilla.ENT.deps.json
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\Plantilla.ENT\bin\Debug\net6.0\Plantilla.ENT.dll
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\Plantilla.ENT\bin\Debug\net6.0\Plantilla.ENT.pdb
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\Plantilla.ENT\obj\Debug\net6.0\Plantilla.ENT.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\Plantilla.ENT\obj\Debug\net6.0\Plantilla.ENT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\Plantilla.ENT\obj\Debug\net6.0\Plantilla.ENT.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\Plantilla.ENT\obj\Debug\net6.0\Plantilla.ENT.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\Plantilla.ENT\obj\Debug\net6.0\Plantilla.ENT.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\Plantilla.ENT\obj\Debug\net6.0\Plantilla.ENT.dll
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\Plantilla.ENT\obj\Debug\net6.0\refint\Plantilla.ENT.dll
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\Plantilla.ENT\obj\Debug\net6.0\Plantilla.ENT.pdb
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\Plantilla.ENT\obj\Debug\net6.0\ref\Plantilla.ENT.dll

@@ -8,8 +8,11 @@
 
   <ItemGroup>
     <Folder Include="Areas\Home\Constantes\" />
-    <Folder Include="Areas\Generales\Modelos\" />
     <Folder Include="Areas\Generales\Constantes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
   </ItemGroup>
 
 </Project>

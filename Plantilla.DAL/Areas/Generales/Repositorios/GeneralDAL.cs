@@ -22,10 +22,12 @@ namespace Plantilla.DAL.Areas.Generales.Repositorios
         /// Obtiene la lista de General
         /// </summary>
         /// <returns>Lista de ActividadesPlanTrabajo</returns>
-        public async Task<List<GeneralDTO>> Listar()
+        public Task<List<GeneralDTO>> Listar()
         {
-         
-            return List<GeneralDTO>;
+            throw new NotImplementedException();
         }
+
+
+     
     }
 }
