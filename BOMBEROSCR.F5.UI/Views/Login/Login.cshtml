@@ -1,0 +1,34 @@
+﻿@using BOMBEROSCR.F5.UI.Models
+@using BOMBEROSCR.F5.UI.RecursosVistas
+@model LoginViewModel
+
+<body class="body-login">
+    <div class="">
+        <div class="row">
+            <div class="col-sm-8 col-md-8 col-lg-4 mx-auto">
+                <section class="login-form">
+                    @using (Html.BeginForm("Login", "Login", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "login" }))
+                    {
+                        <div class="text-center">
+                            <h2>@Rec_Login.Titulo</h2>
+                        </div>
+                        <br/>
+                        @Html.AntiForgeryToken()
+                        <span>@Rec_Login.lblLeyenda</span>
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            @Html.TextBoxFor(m => m.Usuario, new { placeholder = "Usuario", @class = "form-control input-lg", autocomplete = "off" })
+                            @Html.ValidationMessageFor(m => m.Usuario, "", new { @class = "text-danger" })
+                            @Html.PasswordFor(m => m.Contrasena, new { placeholder = "Clave", @class = "form-control input-lg", autocomplete = "off" })
+                            @Html.ValidationMessageFor(m => m.Contrasena, "", new { @class = "text-danger" })
+                            <button type="submit" class="btn btn-lg btn-primary btn-block"><span class="@Rec_Generales.IconobtnIngresar"></span>  @Rec_Generales.btnIngresar</button>
+                    }
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

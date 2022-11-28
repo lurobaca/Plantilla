@@ -1,0 +1,6 @@
+C:\Plantilla\Plantilla\BOMBEROSCR.F5.ENT\bin\Debug\BOMBEROSCR.F5.ENT.dll
+C:\Plantilla\Plantilla\BOMBEROSCR.F5.ENT\bin\Debug\BOMBEROSCR.F5.ENT.pdb
+C:\Plantilla\Plantilla\BOMBEROSCR.F5.ENT\obj\Debug\BOMBEROSCR.F5.ENT.csproj.AssemblyReference.cache
+C:\Plantilla\Plantilla\BOMBEROSCR.F5.ENT\obj\Debug\BOMBEROSCR.F5.ENT.csproj.CoreCompileInputs.cache
+C:\Plantilla\Plantilla\BOMBEROSCR.F5.ENT\obj\Debug\BOMBEROSCR.F5.ENT.dll
+C:\Plantilla\Plantilla\BOMBEROSCR.F5.ENT\obj\Debug\BOMBEROSCR.F5.ENT.pdb

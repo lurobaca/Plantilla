@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.Test\\Plantilla.TEST.csproj": {}
+    "C:\\Plantilla\\Plantilla\\Plantilla.Test\\Plantilla.TEST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.API\\Plantilla.API.csproj": {
+    "C:\\Plantilla\\Plantilla\\BOMBEROSCR.F5.BLL\\BOMBEROSCR.F5.BLL.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.API\\Plantilla.API.csproj",
-        "projectName": "Plantilla.API",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.API\\Plantilla.API.csproj",
+        "projectUniqueName": "C:\\Plantilla\\Plantilla\\BOMBEROSCR.F5.BLL\\BOMBEROSCR.F5.BLL.csproj",
+        "projectName": "BOMBEROSCR.F5.BLL",
+        "projectPath": "C:\\Plantilla\\Plantilla\\BOMBEROSCR.F5.BLL\\BOMBEROSCR.F5.BLL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,38 +19,74 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.Test\\Plantilla.TEST.csproj": {
+    "C:\\Plantilla\\Plantilla\\BOMBEROSCR.F5.ENT\\BOMBEROSCR.F5.ENT.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Plantilla\\Plantilla\\BOMBEROSCR.F5.ENT\\BOMBEROSCR.F5.ENT.csproj",
+        "projectName": "BOMBEROSCR.F5.ENT",
+        "projectPath": "C:\\Plantilla\\Plantilla\\BOMBEROSCR.F5.ENT\\BOMBEROSCR.F5.ENT.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Plantilla\\Plantilla\\Plantilla.API\\Plantilla.API.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Plantilla\\Plantilla\\Plantilla.API\\Plantilla.API.csproj",
+        "projectName": "Plantilla.API",
+        "projectPath": "C:\\Plantilla\\Plantilla\\Plantilla.API\\Plantilla.API.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Plantilla\\Plantilla\\BOMBEROSCR.F5.BLL\\BOMBEROSCR.F5.BLL.csproj": {
+                "projectPath": "C:\\Plantilla\\Plantilla\\BOMBEROSCR.F5.BLL\\BOMBEROSCR.F5.BLL.csproj"
+              },
+              "C:\\Plantilla\\Plantilla\\BOMBEROSCR.F5.ENT\\BOMBEROSCR.F5.ENT.csproj": {
+                "projectPath": "C:\\Plantilla\\Plantilla\\BOMBEROSCR.F5.ENT\\BOMBEROSCR.F5.ENT.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Plantilla\\Plantilla\\Plantilla.Test\\Plantilla.TEST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.Test\\Plantilla.TEST.csproj",
+        "projectUniqueName": "C:\\Plantilla\\Plantilla\\Plantilla.Test\\Plantilla.TEST.csproj",
         "projectName": "Plantilla.TEST",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.Test\\Plantilla.TEST.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.Test\\obj\\",
+        "projectPath": "C:\\Plantilla\\Plantilla\\Plantilla.Test\\Plantilla.TEST.csproj",
+        "packagesPath": "C:\\Users\\bcervantes\\.nuget\\packages\\",
+        "outputPath": "C:\\Plantilla\\Plantilla\\Plantilla.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\bcervantes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Repos\\Bomberos\\HOPE\\BOMBEROS.HOPE.WEB\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.API\\Plantilla.API.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.API\\Plantilla.API.csproj"
+              "C:\\Plantilla\\Plantilla\\Plantilla.API\\Plantilla.API.csproj": {
+                "projectPath": "C:\\Plantilla\\Plantilla\\Plantilla.API\\Plantilla.API.csproj"
               }
             }
           }
@@ -64,45 +100,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.1.0, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.3, )"
-            },
-            "NUnit.Analyzers": {
-              "target": "Package",
-              "version": "[3.3.0, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
         }
       }
     }

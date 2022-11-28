@@ -1,0 +1,987 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAuditoria" xml:space="preserve">
+    <value>Auditoría</value>
+  </data>
+  <data name="btnConsultar" xml:space="preserve">
+    <value>Consultar</value>
+  </data>
+  <data name="btnGuardar" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnNuevo" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="btnRegresar" xml:space="preserve">
+    <value>Atrás</value>
+  </data>
+  <data name="IconobtnAuditoria" xml:space="preserve">
+    <value>glyphicon glyphicon-user</value>
+  </data>
+  <data name="IconobtnConsultar" xml:space="preserve">
+    <value>glyphicon glyphicon-search</value>
+  </data>
+  <data name="IconobtnEliminar" xml:space="preserve">
+    <value>glyphicon glyphicon-trash iconoRojo</value>
+  </data>
+  <data name="IconobtnGuardar" xml:space="preserve">
+    <value>glyphicon glyphicon-floppy-disk</value>
+  </data>
+  <data name="IconobtnNuevo" xml:space="preserve">
+    <value>glyphicon glyphicon-plus</value>
+  </data>
+  <data name="IconobtnRegresar" xml:space="preserve">
+    <value>glyphicon glyphicon-arrow-left</value>
+  </data>
+  <data name="IconobtnVerModificar" xml:space="preserve">
+    <value>glyphicon glyphicon-pencil iconoAzul</value>
+  </data>
+  <data name="mensajeCampoRequerido" xml:space="preserve">
+    <value>El campo es requerido</value>
+  </data>
+  <data name="tabCatalogo" xml:space="preserve">
+    <value>Catálogo</value>
+  </data>
+  <data name="tabDetalle" xml:space="preserve">
+    <value>Detalle</value>
+  </data>
+  <data name="tooltipEliminar" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="tooltipVerModificar" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="btnEnviar" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="IconobtnEnviar" xml:space="preserve">
+    <value>glyphicon glyphicon-send</value>
+  </data>
+  <data name="IconobtnOrdenes" xml:space="preserve">
+    <value>glyphicon glyphicon-tasks iconoAzul</value>
+  </data>
+  <data name="lblEstado" xml:space="preserve">
+    <value>Estado:</value>
+  </data>
+  <data name="tooltipVer" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="btnAprobar" xml:space="preserve">
+    <value>Aprobar</value>
+  </data>
+  <data name="btnRechazar" xml:space="preserve">
+    <value>Rechazar</value>
+  </data>
+  <data name="IconobtnAprobar" xml:space="preserve">
+    <value>glyphicon glyphicon-ok</value>
+  </data>
+  <data name="IconobtnRechazar" xml:space="preserve">
+    <value>glyphicon glyphicon-remove</value>
+  </data>
+  <data name="IconobtnDescargar" xml:space="preserve">
+    <value>glyphicon glyphicon-download</value>
+  </data>
+  <data name="IconobtnMotivo" xml:space="preserve">
+    <value>glyphicon glyphicon-comment iconoAzul</value>
+  </data>
+  <data name="tooltipMotivo" xml:space="preserve">
+    <value>Motivo</value>
+  </data>
+  <data name="btnCerrar" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="IconobtnAprobarVerde" xml:space="preserve">
+    <value>glyphicon glyphicon-ok iconoVerdetable</value>
+  </data>
+  <data name="IconobtnRechazarRojo" xml:space="preserve">
+    <value>glyphicon glyphicon-remove iconoRojotable</value>
+  </data>
+  <data name="tooltipAprobar" xml:space="preserve">
+    <value>Aprobar</value>
+  </data>
+  <data name="tooltipRechazar" xml:space="preserve">
+    <value>Rechazar</value>
+  </data>
+  <data name="IconobtnAyuda" xml:space="preserve">
+    <value>glyphicon glyphicon-question-sign</value>
+  </data>
+  <data name="btnObservaciones" xml:space="preserve">
+    <value>Observaciones</value>
+  </data>
+  <data name="IconobtnAdjuntos" xml:space="preserve">
+    <value>glyphicon glyphicon-folder-open iconoAmarillo</value>
+  </data>
+  <data name="tooltipAdjuntos" xml:space="preserve">
+    <value>Adjuntos</value>
+  </data>
+  <data name="mensajeCampoEntero" xml:space="preserve">
+    <value>El valor debe ser numérico entero</value>
+  </data>
+  <data name="IconobtnExpandir" xml:space="preserve">
+    <value>glyphicon glyphicon-plus-sign</value>
+  </data>
+  <data name="IconobtnCambiar" xml:space="preserve">
+    <value>glyphicon glyphicon-retweet iconoAzul</value>
+  </data>
+  <data name="IconobtnSuspender" xml:space="preserve">
+    <value>glyphicon glyphicon-ban-circle  iconoRojo</value>
+  </data>
+  <data name="IconobtnTransferir" xml:space="preserve">
+    <value>glyphicon glyphicon-transfer iconoAzul</value>
+  </data>
+  <data name="tooltipCambiar" xml:space="preserve">
+    <value>Cambiar</value>
+  </data>
+  <data name="tooltipSuspender" xml:space="preserve">
+    <value>Suspender</value>
+  </data>
+  <data name="tooltipTransferir" xml:space="preserve">
+    <value>Transferir</value>
+  </data>
+  <data name="tooltipTransferirySuspender" xml:space="preserve">
+    <value>Transferir y suspender</value>
+  </data>
+  <data name="mensajeFormatoMonto" xml:space="preserve">
+    <value>El formato no es correcto, formato esperado #,###.##</value>
+  </data>
+  <data name="mensajeFormatoFecha" xml:space="preserve">
+    <value>El formato no es correcto, formato esperado dd/mm/aaaa</value>
+  </data>
+  <data name="mensajeFormatoEntero" xml:space="preserve">
+    <value>El formato no es correcto, se espera un valor entero positivo</value>
+  </data>
+  <data name="mensajeFechaInicioMayor" xml:space="preserve">
+    <value>La fecha inicial no puede ser mayor a la fecha final</value>
+  </data>
+  <data name="mensajeFormatoPorcentajeEntero" xml:space="preserve">
+    <value>El formato no es correcto, se espera un valor entero mayor a 0 y menor o igual a 100</value>
+  </data>
+  <data name="mensajeRangoFecha" xml:space="preserve">
+    <value>Rango de fechas no válido, rango esperado {0} meses.</value>
+  </data>
+  <data name="tooltipInactivar" xml:space="preserve">
+    <value>Inactivar</value>
+  </data>
+  <data name="IconobtnSeleccionar" xml:space="preserve">
+    <value>glyphicon glyphicon-share-alt iconoAzul</value>
+  </data>
+  <data name="tooltipSeleccionar" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="IconobtnVerModificar2" xml:space="preserve">
+    <value>glyphicon glyphicon-pencil</value>
+  </data>
+  <data name="IconobtnListado" xml:space="preserve">
+    <value>glyphicon glyphicon-list iconoAmarillo</value>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="lblTelefono" xml:space="preserve">
+    <value>Teléfono:</value>
+  </data>
+  <data name="mensajeFormatoEmail" xml:space="preserve">
+    <value>El valor no es correcto, se esperaba un email válido.</value>
+  </data>
+  <data name="mensajeFormatoTelefono" xml:space="preserve">
+    <value>El valor no es correcto, se esperaba un teléfono válido.</value>
+  </data>
+  <data name="btnIngresar" xml:space="preserve">
+    <value>Ingresar</value>
+  </data>
+  <data name="IconobtnIngresar" xml:space="preserve">
+    <value>glyphicon glyphicon-log-in</value>
+  </data>
+  <data name="btnImportar" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="IconobtnImportar" xml:space="preserve">
+    <value>glyphicon glyphicon-save</value>
+  </data>
+  <data name="IconobtnBajar" xml:space="preserve">
+    <value>btn btn-default glyphicon glyphicon-arrow-down iconoRojo btn  btn-link</value>
+  </data>
+  <data name="IconobtnSubir" xml:space="preserve">
+    <value>btn btn-default glyphicon glyphicon-arrow-up iconoAzul btn  btn-link</value>
+  </data>
+  <data name="IconobtnCheck" xml:space="preserve">
+    <value>glyphicon glyphicon-check</value>
+  </data>
+  <data name="IconobtnReanudar" xml:space="preserve">
+    <value>glyphicon glyphicon-repeat</value>
+  </data>
+  <data name="IconobtnRetirar" xml:space="preserve">
+    <value>glyphicon glyphicon-share</value>
+  </data>
+  <data name="combosValorDefault" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnVerDetalle" xml:space="preserve">
+    <value>Ver detalle</value>
+  </data>
+  <data name="IconobtnAsignarCita" xml:space="preserve">
+    <value>glyphicon glyphicon-calendar</value>
+  </data>
+  <data name="tooltipAsignarCita" xml:space="preserve">
+    <value>Asignar cita</value>
+  </data>
+  <data name="IconobtnGarantias" xml:space="preserve">
+    <value>glyphicon glyphicon-list-alt iconoRojo</value>
+  </data>
+  <data name="tooltipGarantias" xml:space="preserve">
+    <value>Garantías</value>
+  </data>
+  <data name="mensajeFormatoHora" xml:space="preserve">
+    <value>El formato no es correcto, formato esperado HH:mm</value>
+  </data>
+  <data name="tooltipAprobarFecha" xml:space="preserve">
+    <value>Aprobar fecha</value>
+  </data>
+  <data name="tooltipFechaIngreso" xml:space="preserve">
+    <value>Fecha ingreso</value>
+  </data>
+  <data name="tooltipReasignar" xml:space="preserve">
+    <value>Reasignar</value>
+  </data>
+  <data name="tooltipValidar" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="mensajeErrorGenerico" xml:space="preserve">
+    <value>Ocurrió un error al procesar la solicitud, si el problema persiste contacte al administrador.</value>
+  </data>
+  <data name="btnActualizar" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="btnSelTodos" xml:space="preserve">
+    <value>Seleccionar todos</value>
+  </data>
+  <data name="IconobtnActualizar" xml:space="preserve">
+    <value>glyphicon glyphicon-refresh</value>
+  </data>
+  <data name="IconobtnSelTodos" xml:space="preserve">
+    <value>glyphicon glyphicon-ok-circle </value>
+  </data>
+  <data name="tooltipAsignarContratista" xml:space="preserve">
+    <value>Asignar contratista</value>
+  </data>
+  <data name="tooltipOrdenTrabajo" xml:space="preserve">
+    <value>Ver orden</value>
+  </data>
+  <data name="btnHistorial" xml:space="preserve">
+    <value>Historial</value>
+  </data>
+  <data name="IconobtnHistorial" xml:space="preserve">
+    <value>glyphicon glyphicon-hourglass</value>
+  </data>
+  <data name="btnAnterior" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="btnSiguiente" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="IconobtnAnterior" xml:space="preserve">
+    <value>glyphicon glyphicon-chevron-left</value>
+  </data>
+  <data name="IconobtnSiguiente" xml:space="preserve">
+    <value>glyphicon glyphicon-chevron-right</value>
+  </data>
+  <data name="btnAsociar" xml:space="preserve">
+    <value>Asociar</value>
+  </data>
+  <data name="IconobtnExclamacionRojo" xml:space="preserve">
+    <value>glyphicon glyphicon-exclamation-sign iconoRojo</value>
+  </data>
+  <data name="IconobtnExclamacionVerde" xml:space="preserve">
+    <value>glyphicon glyphicon-exclamation-sign iconoVerde</value>
+  </data>
+  <data name="tooltipAprobarRetiro" xml:space="preserve">
+    <value>Aprobar retiro</value>
+  </data>
+  <data name="tooltipAdjuntarInventario" xml:space="preserve">
+    <value>Adjuntar inventario</value>
+  </data>
+  <data name="tooltipIngresada" xml:space="preserve">
+    <value>Ingresada</value>
+  </data>
+  <data name="tooltipNoIngresada" xml:space="preserve">
+    <value>No ingresada</value>
+  </data>
+  <data name="btnJustificar" xml:space="preserve">
+    <value>Justificar</value>
+  </data>
+  <data name="IconobtnJustificar" xml:space="preserve">
+    <value>glyphicon glyphicon-question-sign</value>
+  </data>
+  <data name="tooltipJustificar" xml:space="preserve">
+    <value>Justificar</value>
+  </data>
+  <data name="IconobtnSuministrar" xml:space="preserve">
+    <value>glyphicon glyphicon-wrench</value>
+  </data>
+  <data name="tooltipSuministrar" xml:space="preserve">
+    <value>Suministrar</value>
+  </data>
+  <data name="tooltipInspecciones" xml:space="preserve">
+    <value>Inspecciones</value>
+  </data>
+  <data name="IconobtnIngreso" xml:space="preserve">
+    <value>glyphicon glyphicon-copy iconoAzul</value>
+  </data>
+  <data name="tooltipIngreso" xml:space="preserve">
+    <value>Ingreso</value>
+  </data>
+  <data name="tooltipEncuesta" xml:space="preserve">
+    <value>Encuesta</value>
+  </data>
+  <data name="IconobtnClasificacion" xml:space="preserve">
+    <value>glyphicon glyphicon-bookmark iconoRojo</value>
+  </data>
+  <data name="IconobtnCotizaciones" xml:space="preserve">
+    <value>glyphicon glyphicon-duplicate iconoAzul</value>
+  </data>
+  <data name="tooltipClasificacion" xml:space="preserve">
+    <value>Clasificacion</value>
+  </data>
+  <data name="tooltipCotizaciones" xml:space="preserve">
+    <value>Cotizaciones</value>
+  </data>
+  <data name="IconobtnCotizacion" xml:space="preserve">
+    <value>glyphicon glyphicon-file iconoAzul</value>
+  </data>
+  <data name="IconobtnDefinitiva" xml:space="preserve">
+    <value>glyphicon glyphicon-copy IconoAzul</value>
+  </data>
+  <data name="IconobtnTerminarTrabajos" xml:space="preserve">
+    <value>glyphicon glyphicon-paste iconoRojo</value>
+  </data>
+  <data name="tooltipCotizacion" xml:space="preserve">
+    <value>Cotización</value>
+  </data>
+  <data name="tooltipDefinitiva" xml:space="preserve">
+    <value>Definitiva</value>
+  </data>
+  <data name="tooltipTerminarTrabajos" xml:space="preserve">
+    <value>Terminar trabajos</value>
+  </data>
+  <data name="tooltipMover" xml:space="preserve">
+    <value>Mover</value>
+  </data>
+  <data name="TituloDetalleCotizacion" xml:space="preserve">
+    <value>Cotización</value>
+  </data>
+  <data name="IconobtnCambiarVista" xml:space="preserve">
+    <value>glyphicon glyphicon-random</value>
+  </data>
+  <data name="IconobtnFacturas" xml:space="preserve">
+    <value>glyphicon glyphicon-level-up iconoVerde</value>
+  </data>
+  <data name="tooltipFacturas" xml:space="preserve">
+    <value>Facturas</value>
+  </data>
+  <data name="IconobtnConciliar" xml:space="preserve">
+    <value>glyphicon glyphicon-link</value>
+  </data>
+  <data name="mensajeCampoEnteroPositivo" xml:space="preserve">
+    <value>El valor debe ser numérico entero positivo</value>
+  </data>
+  <data name="IconobtnDocumento" xml:space="preserve">
+    <value>glyphicon glyphicon-copy </value>
+  </data>
+  <data name="tooltipVerAutorizacionDefinitiva" xml:space="preserve">
+    <value>Ver autorización definitiva</value>
+  </data>
+  <data name="ConsultarTodo" xml:space="preserve">
+    <value>Consultar todos</value>
+  </data>
+  <data name="MensajeProcesoSatisfactorio" xml:space="preserve">
+    <value>Proceso realizado satisfactoriamente.</value>
+  </data>
+  <data name="tooltipFirmarPruebaFinal" xml:space="preserve">
+    <value>Firmar prueba final</value>
+  </data>
+  <data name="tooltipRecibir" xml:space="preserve">
+    <value>Recibir</value>
+  </data>
+  <data name="tooltipMostrarDocs" xml:space="preserve">
+    <value>Mostrar documentos</value>
+  </data>
+  <data name="IconobtnDesechar" xml:space="preserve">
+    <value>glyphicon glyphicon-alert</value>
+  </data>
+  <data name="IconoBtnCoordinar" xml:space="preserve">
+    <value>glyphicon glyphicon-random</value>
+  </data>
+  <data name="tooltipCoordinarRetiro" xml:space="preserve">
+    <value>Coordinar retiro</value>
+  </data>
+  <data name="IconobtnMulta" xml:space="preserve">
+    <value>glyphicon glyphicon-alert</value>
+  </data>
+  <data name="tooltipMostrarMultas" xml:space="preserve">
+    <value>Mostrar multas</value>
+  </data>
+  <data name="IconobtnInformacion" xml:space="preserve">
+    <value>glyphicon glyphicon-info-sign</value>
+  </data>
+  <data name="mensajeFechasRangoRequeridas" xml:space="preserve">
+    <value>Favor ingrese el rango de fechas para continuar.</value>
+  </data>
+  <data name="tooltipCambiarPrioridad" xml:space="preserve">
+    <value>Cambiar prioridad</value>
+  </data>
+  <data name="IconobtnCargarArchivo" xml:space="preserve">
+    <value>glyphicon glyphicon-open</value>
+  </data>
+  <data name="IconobtnFirmar" xml:space="preserve">
+    <value>glyphicon glyphicon-pencil</value>
+  </data>
+  <data name="IconobtnColapsar" xml:space="preserve">
+    <value>glyphicon glyphicon-minus-sign</value>
+  </data>
+  <data name="mensajeFormatoDecimal" xml:space="preserve">
+    <value>El formato no es correcto, formato esperado ##.##</value>
+  </data>
+  <data name="btnReprogramar" xml:space="preserve">
+    <value>Reprogramar</value>
+  </data>
+  <data name="btnGarantia" xml:space="preserve">
+    <value>Garantía</value>
+  </data>
+  <data name="btnAsignar" xml:space="preserve">
+    <value>Asignar</value>
+  </data>
+  <data name="btnBuscar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="IconoUndEnServicio" xml:space="preserve">
+    <value>glyphicon glyphicon-ok-sign</value>
+  </data>
+  <data name="IconoUndFueraServicio" xml:space="preserve">
+    <value>glyphicon glyphicon-exclamation-sign</value>
+  </data>
+  <data name="UnidadEnServicio" xml:space="preserve">
+    <value>En servicio</value>
+  </data>
+  <data name="UnidadFueraServicio" xml:space="preserve">
+    <value>Fuera de servicio</value>
+  </data>
+  <data name="tooltipVerOrdenes" xml:space="preserve">
+    <value>Ver orden</value>
+  </data>
+  <data name="tooltipEnviarPruebaFinalFacturacion" xml:space="preserve">
+    <value>Enviar a facturación</value>
+  </data>
+  <data name="btnGenerar" xml:space="preserve">
+    <value>Generar</value>
+  </data>
+  <data name="tooltipProcesar" xml:space="preserve">
+    <value>Procesar</value>
+  </data>
+  <data name="btnRegistrar" xml:space="preserve">
+    <value>Registrar</value>
+  </data>
+  <data name="tabReqFormales" xml:space="preserve">
+    <value>Requisitos formales</value>
+  </data>
+  <data name="tabReqTecnicos" xml:space="preserve">
+    <value>Requisitos técnicos</value>
+  </data>
+  <data name="tooltipNuevo" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="btnReporte" xml:space="preserve">
+    <value>Reportar</value>
+  </data>
+  <data name="tituloMotivoRechazo" xml:space="preserve">
+    <value>Motivo rechazo</value>
+  </data>
+  <data name="iconoFecha" xml:space="preserve">
+    <value>glyphicon glyphicon-time</value>
+  </data>
+  <data name="tooltipIngresarFecha" xml:space="preserve">
+    <value>Ingresar fecha</value>
+  </data>
+  <data name="Iconobtndetalle" xml:space="preserve">
+    <value>glyphicon glyphicon-list-alt </value>
+  </data>
+  <data name="tooltipVerDetalle" xml:space="preserve">
+    <value>Ver detalle</value>
+  </data>
+  <data name="tooltipIngresoUnidad" xml:space="preserve">
+    <value>Ingreso de unidad</value>
+  </data>
+  <data name="btnAceptar" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="TituloArchivosAdjuntos" xml:space="preserve">
+    <value>Archivos adjuntos</value>
+  </data>
+  <data name="TituloSubirArchivo" xml:space="preserve">
+    <value>Subir archivo</value>
+  </data>
+  <data name="IconobtnUnidad" xml:space="preserve">
+    <value>glyphicon glyphicon-copy</value>
+  </data>
+  <data name="tooltipMulta" xml:space="preserve">
+    <value>Multa</value>
+  </data>
+  <data name="tooltipVerReportes" xml:space="preserve">
+    <value>Ver reportes</value>
+  </data>
+  <data name="tooltipMotivoRechazoFecha" xml:space="preserve">
+    <value>Motivo del rechazo de la fecha de ingreso</value>
+  </data>
+  <data name="tooltipDescargar" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="tooltipDeshabilitar" xml:space="preserve">
+    <value>Deshabilitar</value>
+  </data>
+  <data name="btnEnviarSolicitud" xml:space="preserve">
+    <value>Enviar solicitud</value>
+  </data>
+  <data name="btnSalir" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="btnAgregar" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="IconobtnExclamacion" xml:space="preserve">
+    <value>glyphicon glyphicon-exclamation-sign</value>
+  </data>
+  <data name="tooltipAsignarTecnico" xml:space="preserve">
+    <value>Asignar Técnico</value>
+  </data>
+  <data name="tooltipBajar" xml:space="preserve">
+    <value>Bajar</value>
+  </data>
+  <data name="tooltipSubir" xml:space="preserve">
+    <value>Subir</value>
+  </data>
+  <data name="btnExcluir" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="tooltipHojaVisita" xml:space="preserve">
+    <value>Hoja de visita</value>
+  </data>
+  <data name="IconobtnVer" xml:space="preserve">
+    <value>glyphicon glyphicon-eye-open iconoAzul</value>
+  </data>
+  <data name="IconoBajar" xml:space="preserve">
+    <value>glyphicon glyphicon-arrow-down iconoRojo</value>
+  </data>
+  <data name="IconoSubir" xml:space="preserve">
+    <value>glyphicon glyphicon-arrow-up iconoAzul</value>
+  </data>
+  <data name="IconoUbicacion" xml:space="preserve">
+    <value>glyphicon glyphicon-globe</value>
+  </data>
+  <data name="tooltipUbicacion" xml:space="preserve">
+    <value>Ubicación proyectada</value>
+  </data>
+  <data name="btnNotificar" xml:space="preserve">
+    <value>Notificar</value>
+  </data>
+  <data name="tooltipRevisar" xml:space="preserve">
+    <value>Revisar</value>
+  </data>
+  <data name="IconobtnInforme" xml:space="preserve">
+    <value>glyphicon glyphicon-file</value>
+  </data>
+  <data name="tooltipInformeContratista" xml:space="preserve">
+    <value>Ver informe contratista</value>
+  </data>
+  <data name="tooltipInformeTecnico" xml:space="preserve">
+    <value>Ver informe técnico</value>
+  </data>
+  <data name="IconobtnRechazarFechaInicio" xml:space="preserve">
+    <value>Rechazar fecha inicio</value>
+  </data>
+  <data name="tooltipEditar" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="toolTipEliminarEstacion" xml:space="preserve">
+    <value>Eliminar estación</value>
+  </data>
+  <data name="toolTipVerUnidades" xml:space="preserve">
+    <value>Ver unidades</value>
+  </data>
+  <data name="tabTrabajos" xml:space="preserve">
+    <value>Trabajos</value>
+  </data>
+  <data name="tooltipTrabajos" xml:space="preserve">
+    <value>Trabajos</value>
+  </data>
+  <data name="lblExtension" xml:space="preserve">
+    <value>Extensión:</value>
+  </data>
+  <data name="btnAgregarObservacion" xml:space="preserve">
+    <value>Agregar Observación</value>
+  </data>
+  <data name="tooltipIncluir" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="genAcciones" xml:space="preserve">
+    <value>Acciones</value>
+  </data>
+  <data name="genEstacion" xml:space="preserve">
+    <value>Estación</value>
+  </data>
+  <data name="tooltipBuscar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="IconobtnSalir" xml:space="preserve">
+    <value>glyphicon glyphicon-log-out</value>
+  </data>
+  <data name="btnVerObservaciones" xml:space="preserve">
+    <value>Ver Observaciones</value>
+  </data>
+  <data name="tooltipJustificacion" xml:space="preserve">
+    <value>Justificación cantidad utilizada</value>
+  </data>
+  <data name="btnRecibir" xml:space="preserve">
+    <value>Recibir</value>
+  </data>
+  <data name="IconobtnRecibir" xml:space="preserve">
+    <value>glyphicon glyphicon-download-alt</value>
+  </data>
+  <data name="btnDeselTodos" xml:space="preserve">
+    <value>Deseleccionar todos</value>
+  </data>
+  <data name="IconobtnDeselTodos" xml:space="preserve">
+    <value>glyphicon glyphicon-ban-circle</value>
+  </data>
+  <data name="btnDesecho" xml:space="preserve">
+    <value>Desechar</value>
+  </data>
+  <data name="tooltipDesechar" xml:space="preserve">
+    <value>Desechar</value>
+  </data>
+  <data name="tooltipVerCertificado" xml:space="preserve">
+    <value>Ver certificado</value>
+  </data>
+  <data name="IconobtnClasificar" xml:space="preserve">
+    <value>glyphicon glyphicon-inbox</value>
+  </data>
+  <data name="tooltipCoordinar" xml:space="preserve">
+    <value>Coordinar</value>
+  </data>
+  <data name="btnLimpiar" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="IconoBtnLimpiar" xml:space="preserve">
+    <value>glyphicon glyphicon-erase</value>
+  </data>
+  <data name="btnVerResumen" xml:space="preserve">
+    <value>Ver Resumen</value>
+  </data>
+  <data name="btnVerTodos" xml:space="preserve">
+    <value>Ver todos</value>
+  </data>
+  <data name="IconoCortesia" xml:space="preserve">
+    <value>glyphicon glyphicon-gift</value>
+  </data>
+  <data name="IconobtnAgregarUsuario" xml:space="preserve">
+    <value>fa fa-user-plus</value>
+  </data>
+  <data name="IconobtnEliminarUsuario" xml:space="preserve">
+    <value>fa fa-user-times</value>
+  </data>
+  <data name="IconobtnUsuarios" xml:space="preserve">
+    <value>fa fa-users</value>
+  </data>
+  <data name="tooltipIngresarFechaRetiro" xml:space="preserve">
+    <value>Ingresar fecha retiro</value>
+  </data>
+  <data name="btnVBJefatura" xml:space="preserve">
+    <value>VB Jefatura</value>
+  </data>
+  <data name="tooltipVerDispositivos" xml:space="preserve">
+    <value>Ver dispositivos</value>
+  </data>
+  <data name="mensajeFormatoAnno" xml:space="preserve">
+    <value>El formato no es correcto, formato esperado #### y número válido</value>
+  </data>
+  <data name="btnSincronizar" xml:space="preserve">
+    <value>Sincronizar</value>
+  </data>
+  <data name="tooltipNotificar" xml:space="preserve">
+    <value>Notificar</value>
+  </data>
+  <data name="toolTipDispositivosAsociados" xml:space="preserve">
+    <value>Dispositivos asociados</value>
+  </data>
+  <data name="tooltipFechaGeneracion" xml:space="preserve">
+    <value>Fecha de generación</value>
+  </data>
+  <data name="IconobtnModificarBateria" xml:space="preserve">
+    <value>fa fa-refresh </value>
+  </data>
+  <data name="tooltipAsignarCitaReingreso" xml:space="preserve">
+    <value>Asignar cita reingreso</value>
+  </data>
+  <data name="tooltipFechaReingreso" xml:space="preserve">
+    <value>Fecha reingreso</value>
+  </data>
+  <data name="tooltipNoReingresada" xml:space="preserve">
+    <value>No reingresada</value>
+  </data>
+  <data name="tooltipReingresada" xml:space="preserve">
+    <value>Reingresada</value>
+  </data>
+  <data name="tooltipAdjuntarInventarioReingreso" xml:space="preserve">
+    <value>Adjuntar inventario reingreso</value>
+  </data>
+  <data name="IconobtnListadoAzul" xml:space="preserve">
+    <value>glyphicon glyphicon-list iconoAzul</value>
+  </data>
+  <data name="btnQuitar" xml:space="preserve">
+    <value>Quitar</value>
+  </data>
+  <data name="tooltipSalidaUnidad" xml:space="preserve">
+    <value>Salida unidad</value>
+  </data>
+  <data name="toolTipNoAplicaGarantia" xml:space="preserve">
+    <value>No aplica garantía</value>
+  </data>
+  <data name="tooltipEnviar" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="IconoDispositivos" xml:space="preserve">
+    <value>glyphicon glyphicon-dashboard</value>
+  </data>
+  <data name="mensajeFechasMayoresActual" xml:space="preserve">
+    <value>Las fechas no pueden ser mayores a la fecha actual</value>
+  </data>
+  <data name="MensajeProblemaConexion" xml:space="preserve">
+    <value>Problemas de comunicación, por favor intente de nuevo.</value>
+  </data>
+  <data name="MensajeProblemaConexionExcelsior" xml:space="preserve">
+    <value>Problemas de comunicación con excelsior, por favor intente de nuevo.</value>
+  </data>
+  <data name="mensajeNoExistenAdjuntos" xml:space="preserve">
+    <value>No se han ingresado documentos adjuntos para {0}.</value>
+  </data>
+  <data name="btnHistorico" xml:space="preserve">
+    <value>Histórico</value>
+  </data>
+  <data name="tooltipDesenlazar" xml:space="preserve">
+    <value>Desenlazar</value>
+  </data>
+  <data name="iconoBtnDesenlazar" xml:space="preserve">
+    <value>glyphicon glyphicon-random iconoAzul</value>
+  </data>
+  <data name="iconoBtnEstado" xml:space="preserve">
+    <value>fa fa-circle</value>
+  </data>
+  <data name="mensajeFiltroMesAñoVencimiento" xml:space="preserve">
+    <value>Si se desea consultar por mes de vencimiento, se debe ingresar el año.</value>
+  </data>
+  <data name="mensajeFiltrosMinimo" xml:space="preserve">
+    <value>Se debe ingresar al menos un filtro para realizar la consulta.</value>
+  </data>
+  <data name="IconoBtnMonto" xml:space="preserve">
+    <value>fa fa-money iconoVerde</value>
+  </data>
+  <data name="tooltipMonto" xml:space="preserve">
+    <value>Ver monto</value>
+  </data>
+  <data name="lblSede" xml:space="preserve">
+    <value>Sede:</value>
+  </data>
+  <data name="lblContratista" xml:space="preserve">
+    <value>Contratista:</value>
+  </data>
+  <data name="IconobtnNuevoAzul" xml:space="preserve">
+    <value>glyphicon glyphicon-plus iconoAzul</value>
+  </data>
+  <data name="IconobtnDuplicateAmarillo" xml:space="preserve">
+    <value>glyphicon glyphicon-duplicate iconoAmarillo</value>
+  </data>
+  <data name="IconoOkVerde" xml:space="preserve">
+    <value>glyphicon glyphicon-ok iconoVerde</value>
+  </data>
+  <data name="IconobtnReanuNoRetiro" xml:space="preserve">
+    <value>glyphicon glyphicon-bell iconoAmarillo</value>
+  </data>
+  <data name="tooltipReanuNoRetiro" xml:space="preserve">
+    <value>Reanudación por no retiro</value>
+  </data>
+  <data name="tooltipAprobarReanudacion" xml:space="preserve">
+    <value>Aprobar Reanudación</value>
+  </data>
+  <data name="tooltipReanudaUnidad" xml:space="preserve">
+    <value>Reanudación de Unidad</value>
+  </data>
+  <data name="btnAnotaciones" xml:space="preserve">
+    <value>Anotaciones</value>
+  </data>
+  <data name="tooltipJustificacionHorasMO" xml:space="preserve">
+    <value>Justificación de horas</value>
+  </data>
+  <data name="IconobtnSolicitudRetiro" xml:space="preserve">
+    <value>glyphicon glyphicon-duplicate iconoAzul</value>
+  </data>
+  <data name="tooltipSolicitudRetiro" xml:space="preserve">
+    <value>Solicitud retiro</value>
+  </data>
+  <data name="tooltipDocumentos" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="mensajeCampoEnteroPositivoMayorCero" xml:space="preserve">
+    <value>El valor debe ser numérico entero positivo mayor que cero</value>
+  </data>
+  <data name="IconoIngresadoPrediagnostico" xml:space="preserve">
+    <value>glyphicon  glyphicon-bookmark</value>
+  </data>
+  <data name="lblNumOrden" xml:space="preserve">
+    <value>Número orden:</value>
+  </data>
+  <data name="lblTipoSolicitud" xml:space="preserve">
+    <value>Proceso origen:</value>
+  </data>
+  <data name="IconobtnAdjunto" xml:space="preserve">
+    <value>fa fa-folder</value>
+  </data>
+  <data name="lblJustificacion" xml:space="preserve">
+    <value>Justificación:</value>
+  </data>
+  <data name="IconobtnEnviarSolicitud" xml:space="preserve">
+    <value>glyphicon glyphicon-new-window iconoCeleste</value>
+  </data>
+  <data name="toolTipEnviarCotizacion" xml:space="preserve">
+    <value>Enviar a cotización</value>
+  </data>
+  <data name="toolTipEnviarSolicitud" xml:space="preserve">
+    <value>Enviar solicitud de trabajo</value>
+  </data>
+  <data name="btnCodigoSeguridad" xml:space="preserve">
+    <value>Código de seguridad</value>
+  </data>
+  <data name="lnkSolicitarCodigoSeguridad" xml:space="preserve">
+    <value>Volver a solicitar el código de seguridad</value>
+  </data>
+  <data name="IconoExterno" xml:space="preserve">
+    <value>glyphicon glyphicon-export</value>
+  </data>
+</root>

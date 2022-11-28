@@ -1,0 +1,63 @@
+﻿@using BOMBEROSCR.F5.UI.Models
+@using BOMBEROSCR.F5.UI.RecursosVistas
+@model CodigoSeguridadViewModel
+
+<body class="body-login">
+    <div class="">
+        <div class="row">
+            <div class="col-sm-8 col-md-8 col-lg-4 mx-auto">
+                <section class="login-form">
+                    @using (Html.BeginForm("EnviarCodigoSeguridad", "Login", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "login" }))
+                    {
+                        <div class="text-center">
+                            <h2>@Rec_Login.Titulo</h2>
+                        </div>
+                        <br/>
+                        @*@Html.AntiForgeryToken()*@
+                        <span>@Rec_Login.lblLeyenda</span>
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            @Html.TextBoxFor(m => m.Usuario, new { placeholder = "Usuario", @class = "form-control input-lg", @readonly="readonly" })
+                            @Html.TextBoxFor(m => m.CodigoSeguridad, new { placeholder = "Código de seguridad", @class = "form-control input-lg", autocomplete = "off" })
+                            @Html.ValidationMessageFor(m => m.CodigoSeguridad, "", new { @class = "text-danger" })
+                            <button type="submit" class="btn btn-lg btn-primary btn-block"><span class="@Rec_Generales.IconobtnIngresar"></span>  Enviar</button>
+                            <a id="lnkSolicitarCodigoSeguridad">@Rec_Generales.lnkSolicitarCodigoSeguridad</a>
+                    }
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+<script>
+
+  var urlSolictarNuevoCodigoSeguridaed = "@Url.Action("SolicitarNuevoCodigoSeguridad", "Login")";
+
+  $(document).ready(function () {
+    $("#lnkSolicitarCodigoSeguridad").click(SolicitarCodigoSeguridad);
+
+    @if (!string.IsNullOrEmpty(ViewBag.Mensaje)) {
+        @:{ ProcesarRespuesta(0, '@ViewBag.Mensaje') };
+    }
+
+    });
+  var SolicitarCodigoSeguridad = function () {
+    $.ajax({
+      type: "POST",
+      content: "application/json; charset=utf-8",
+      traditional: true,
+      url: window.urlSolictarNuevoCodigoSeguridaed,
+      dataType: "json",
+      success: function (resultado) {
+          ProcesarRespuesta(resultado.codigo, resultado.descripcion);
+      },
+      error: function (xhr, textStatus, errorThrown) {
+        ProcesarRespuesta(99, "");
+      }
+    });
+  }
+</script>
+}
+

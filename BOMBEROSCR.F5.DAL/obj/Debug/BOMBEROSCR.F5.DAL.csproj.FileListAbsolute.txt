@@ -1,0 +1,2 @@
+C:\Plantilla\Plantilla\BOMBEROSCR.F5.DAL\obj\Debug\BOMBEROSCR.F5.DAL.csproj.AssemblyReference.cache
+C:\Plantilla\Plantilla\BOMBEROSCR.F5.DAL\obj\Debug\BOMBEROSCR.F5.DAL.csproj.CoreCompileInputs.cache
