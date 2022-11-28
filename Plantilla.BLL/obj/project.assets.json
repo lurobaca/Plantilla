@@ -356,9 +356,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.BLL\\Plantilla.BLL.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.BLL\\Plantilla.BLL.csproj",
       "projectName": "Plantilla.BLL",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.BLL\\Plantilla.BLL.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.BLL\\Plantilla.BLL.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.BLL\\obj\\",
       "projectStyle": "PackageReference",
@@ -383,11 +383,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj"
+            "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj"
             },
-            "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj"
+            "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj"
             }
           }
         }

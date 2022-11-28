@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lbq3A9mQCY5AMV1cac8VS/LOZEOgIf11VyK3kVYYMRrZWV/5YJ/gdWfltaBKBd9lLvTWqJHsFKFbb4Cn/H9nzw==",
+  "dgSpecHash": "J9ZSQLUKMAC5vpLvel0hZyGcoy7BfRRtmRtVvt56kaV5KPlXR6GPNDuipPi15FkFL9XSVm+GaWOsKJdctYPdRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.Test\\Plantilla.TEST.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.Test\\Plantilla.TEST.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

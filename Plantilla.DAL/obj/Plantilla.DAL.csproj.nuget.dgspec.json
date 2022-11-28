@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj": {}
+    "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj": {
+    "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj",
         "projectName": "Plantilla.DAL",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.DAL\\obj\\",
         "projectStyle": "PackageReference",
@@ -34,8 +34,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj"
+              "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj"
               }
             }
           }
@@ -69,12 +69,12 @@
         }
       }
     },
-    "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj": {
+    "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj",
         "projectName": "Plantilla.ENT",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.ENT\\Plantilla.ENT.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.ENT\\obj\\",
         "projectStyle": "PackageReference",

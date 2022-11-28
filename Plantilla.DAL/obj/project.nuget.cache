@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/6R67NtX+1Eb+67P7Wh4T5MBwfJd/Skhz1FonWZ55h7F4qemPfc5LzmrQvBqmOk683MzcOkzFwnhi/6aNiFmxA==",
+  "dgSpecHash": "vnc2O+QZdytsV5gy4h7+sQSFN2U1+SKA6wF/lCMPvb69IwjlMqYK7hA/nPA62SwYgzwsP/95j9ja2cegny5QSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.DAL\\Plantilla.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

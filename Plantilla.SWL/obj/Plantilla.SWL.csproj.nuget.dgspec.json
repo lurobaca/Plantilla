@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.SWL\\Plantilla.SWL.csproj": {}
+    "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.SWL\\Plantilla.SWL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.SWL\\Plantilla.SWL.csproj": {
+    "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.SWL\\Plantilla.SWL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.SWL\\Plantilla.SWL.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.SWL\\Plantilla.SWL.csproj",
         "projectName": "Plantilla.SWL",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.SWL\\Plantilla.SWL.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\lurobaca\\Plantilla\\Plantilla.SWL\\Plantilla.SWL.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Administrator\\source\\repos\\lurobaca\\Plantilla\\Plantilla.SWL\\obj\\",
         "projectStyle": "PackageReference",
