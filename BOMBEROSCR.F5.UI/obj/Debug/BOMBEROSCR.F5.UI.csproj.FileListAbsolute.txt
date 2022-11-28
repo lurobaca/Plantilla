@@ -1,0 +1,5 @@
+C:\Users\Administrator\Source\Repos\lurobaca\Plantilla\BOMBEROSCR.F5.UI\obj\Debug\BOMBEROSCR.F5.UI.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\lurobaca\Plantilla\BOMBEROSCR.F5.UI\obj\Debug\BOMBEROSCR.F5.UI.RecursosVistas.Rec_Generales.resources
+C:\Users\Administrator\Source\Repos\lurobaca\Plantilla\BOMBEROSCR.F5.UI\obj\Debug\BOMBEROSCR.F5.UI.RecursosVistas.Rec_Login.resources
+C:\Users\Administrator\Source\Repos\lurobaca\Plantilla\BOMBEROSCR.F5.UI\obj\Debug\BOMBEROSCR.F5.UI.csproj.GenerateResource.cache
+C:\Users\Administrator\Source\Repos\lurobaca\Plantilla\BOMBEROSCR.F5.UI\obj\Debug\BOMBEROSCR.F5.UI.csproj.CoreCompileInputs.cache
