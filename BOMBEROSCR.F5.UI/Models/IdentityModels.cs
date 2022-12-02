@@ -30,6 +30,6 @@ namespace BOMBEROSCR.F5.UI.Models
             return new ApplicationDbContext();
         }
 
-        public System.Data.Entity.DbSet<BOMBEROSCR.GESCON.ENT.Archivo> Archivoes { get; set; }
+      //  public System.Data.Entity.DbSet<BOMBEROSCR.GESCON.ENT.Archivo> Archivoes { get; set; }
     }
 }

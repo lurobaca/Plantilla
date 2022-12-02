@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace Plantilla.API.Areas.HelpPage.ModelDescriptions
+namespace BOMBEROSCR.F5.API.Areas.HelpPage.ModelDescriptions
 {
     public interface IModelDocumentationProvider
     {

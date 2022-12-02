@@ -73,10 +73,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BitacoraGescon.cs" />
     <Compile Include="General\AutoMapperProfile.cs" />
     <Compile Include="ConfiguracionModel.cs" />
     <Compile Include="CuentaModel.cs" />
     <Compile Include="DispositivoModel.cs" />
+    <Compile Include="RespuestaGenericaRechazo.cs" />
     <Compile Include="Seguridad\AutenticarRequestBCBC.cs" />
     <Compile Include="Seguridad\AutenticarResponseBCBC.cs" />
     <Compile Include="General\Notificacion.cs" />

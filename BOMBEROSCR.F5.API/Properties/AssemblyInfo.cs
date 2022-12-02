@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general sobre un ensamblado se controla mediante lo siguiente
 // conjunto de atributos. Cambie los valores de estos atributos para modificar la información
 // asociada a un ensamblado.
-[assembly: AssemblyTitle("Plantilla.API")]
+[assembly: AssemblyTitle("BOMBEROSCR.F5.API")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Plantilla.API")]
+[assembly: AssemblyProduct("BOMBEROSCR.F5.API")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID es para el ID. typelib cuando este proyecto esté expuesto a COM
-[assembly: Guid("f15080af-0463-40ea-9fd1-6195e6f43c41")]
+[assembly: Guid("63c60aeb-7804-4bce-9fb7-edfd7b1811a7")]
 
 // La información de versión de un ensamblado consta de los siguientes cuatro valores:
 //

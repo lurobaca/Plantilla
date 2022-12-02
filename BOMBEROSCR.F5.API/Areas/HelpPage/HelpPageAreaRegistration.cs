@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace Plantilla.API.Areas.HelpPage
+namespace BOMBEROSCR.F5.API.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
-namespace Plantilla.API.Areas.HelpPage.ModelDescriptions
+namespace BOMBEROSCR.F5.API.Areas.HelpPage.ModelDescriptions
 {
     internal static class ModelNameHelper
     {

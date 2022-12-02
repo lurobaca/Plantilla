@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Plantilla.API.Controllers
+namespace BOMBEROSCR.F5.API.Controllers
 {
     public class HomeController : Controller
     {

@@ -2,11 +2,11 @@
 @using System.Web.Http.Controllers
 @using System.Web.Http.Description
 @using System.Collections.ObjectModel
-@using Plantilla.API.Areas.HelpPage.Models
+@using BOMBEROSCR.F5.API.Areas.HelpPage.Models
 @model Collection<ApiDescription>
 
 @{
-    ViewBag.Title = "Página de ayuda y referencia sobre los métodos API del proyecto.";
+    ViewBag.Title = "ASP.NET Web API Help Page";
 
     // Group APIs by controller
     ILookup<HttpControllerDescriptor, ApiDescription> apiGroups = Model.ToLookup(api => api.ActionDescriptor.ControllerDescriptor);
@@ -23,9 +23,9 @@
 <div id="body" class="help-page">
     <section class="featured">
         <div class="content-wrapper">
-            <h2>Métodos API.</h2>
+            <h2>Introduction</h2>
             <p>
-                Se muestra una breve descripción de cada método y su url de consumo.
+                Provide a general description of your APIs here.
             </p>
         </div>
     </section>

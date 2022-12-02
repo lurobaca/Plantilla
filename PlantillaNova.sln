@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOMBEROSCR.F5.UTL", "BOMBER
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOMBEROSCR.F5.UI", "BOMBEROSCR.F5.UI\BOMBEROSCR.F5.UI.csproj", "{2E5BCF23-43A9-4A13-9B3E-DA7AF0848A80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOMBEROSCR.F5.API", "BOMBEROSCR.F5.API\BOMBEROSCR.F5.API.csproj", "{CEBA649D-714C-4412-9692-8D040F626405}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,12 +47,16 @@ Global
 		{2E5BCF23-43A9-4A13-9B3E-DA7AF0848A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E5BCF23-43A9-4A13-9B3E-DA7AF0848A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E5BCF23-43A9-4A13-9B3E-DA7AF0848A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBA649D-714C-4412-9692-8D040F626405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBA649D-714C-4412-9692-8D040F626405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBA649D-714C-4412-9692-8D040F626405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBA649D-714C-4412-9692-8D040F626405}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {02A96CDB-1FD4-44E2-8B4A-A4BFC1069880}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+		SolutionGuid = {02A96CDB-1FD4-44E2-8B4A-A4BFC1069880}
 	EndGlobalSection
 EndGlobal

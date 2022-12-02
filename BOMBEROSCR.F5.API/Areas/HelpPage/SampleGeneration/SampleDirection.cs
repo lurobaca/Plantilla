@@ -1,4 +1,4 @@
-namespace Plantilla.API.Areas.HelpPage
+namespace BOMBEROSCR.F5.API.Areas.HelpPage
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

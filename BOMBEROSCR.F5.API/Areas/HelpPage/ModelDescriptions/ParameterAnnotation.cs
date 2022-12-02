@@ -1,6 +1,6 @@
 using System;
 
-namespace Plantilla.API.Areas.HelpPage.ModelDescriptions
+namespace BOMBEROSCR.F5.API.Areas.HelpPage.ModelDescriptions
 {
     public class ParameterAnnotation
     {

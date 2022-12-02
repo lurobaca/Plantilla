@@ -44,15 +44,15 @@ namespace BOMBEROSCR.F5.UTL
             }
         }
 
-		public class MetodosApiSeguridad
-		{
-			public const string Autenticar = "Autenticar";
-			public const string Modulos = "Modulos";
-			public const string ObtenerUsuariosRolSistema = "ObtenerUsuariosRolSistema";
-			public const string Opciones = "Opciones";
-			public const string GenerarOTP = "GenerarOTP";
-			public const string VerificarOTP = "VerificarOTP";
-		}
+		//public class MetodosApiSeguridad
+		//{
+		//	public const string Autenticar = "Autenticar";
+		//	public const string Modulos = "Modulos";
+		//	public const string ObtenerUsuariosRolSistema = "ObtenerUsuariosRolSistema";
+		//	public const string Opciones = "Opciones";
+		//	public const string GenerarOTP = "GenerarOTP";
+		//	public const string VerificarOTP = "VerificarOTP";
+		//}
 
 		public class CatalogoMoneda
         {
@@ -70,6 +70,13 @@ namespace BOMBEROSCR.F5.UTL
             public const int AccionEspecial = 97;
             public const int SessionCaducada = 98;
             public const int ErrorNoControlado = 99;
+        }
+
+        public class Parametros
+        {
+            public const string CodigoError = "@pCodError";
+            public const string MensajeError = "@pMensajeError";
+            public const string ExisteDiferencia = "@pExisteDiferencia";
         }
     }
 }

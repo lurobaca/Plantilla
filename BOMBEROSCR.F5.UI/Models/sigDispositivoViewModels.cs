@@ -5,6 +5,9 @@ using System.Web;
 
 namespace BOMBEROSCR.F5.UI.Models
 {
+    /// <summary>
+    /// Contiene la estrucutra de la tabla de la base de datos [sigDispositivo]
+    /// </summary>
     public class sigDispositivoViewModels
     {
         //[Display(Name = "Código")]

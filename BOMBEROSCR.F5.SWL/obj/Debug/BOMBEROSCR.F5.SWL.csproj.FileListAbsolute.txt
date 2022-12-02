@@ -5,3 +5,11 @@ C:\Plantilla\Plantilla\BOMBEROSCR.F5.SWL\obj\Debug\BOMBEROSCR.F5.SWL.csproj.Asse
 C:\Plantilla\Plantilla\BOMBEROSCR.F5.SWL\obj\Debug\BOMBEROSCR.F5.SWL.csproj.CoreCompileInputs.cache
 C:\Plantilla\Plantilla\BOMBEROSCR.F5.SWL\obj\Debug\BOMBEROSCR.F5.SWL.exe
 C:\Plantilla\Plantilla\BOMBEROSCR.F5.SWL\obj\Debug\BOMBEROSCR.F5.SWL.pdb
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\BOMBEROSCR.F5.SWL\bin\Debug\BOMBEROSCR.F5.SWL.exe.config
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\BOMBEROSCR.F5.SWL\bin\Debug\BOMBEROSCR.F5.SWL.exe
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\BOMBEROSCR.F5.SWL\bin\Debug\BOMBEROSCR.F5.SWL.pdb
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\BOMBEROSCR.F5.SWL\obj\Debug\BOMBEROSCR.F5.SWL.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\BOMBEROSCR.F5.SWL\obj\Debug\BOMBEROSCR.F5.SWL.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\BOMBEROSCR.F5.SWL\obj\Debug\BOMBEROSCR.F5.SWL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\BOMBEROSCR.F5.SWL\obj\Debug\BOMBEROSCR.F5.SWL.exe
+C:\Users\Administrator\source\repos\lurobaca\Plantilla\BOMBEROSCR.F5.SWL\obj\Debug\BOMBEROSCR.F5.SWL.pdb

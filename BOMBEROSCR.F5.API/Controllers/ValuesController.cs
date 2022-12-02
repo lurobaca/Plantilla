@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace Plantilla.API.Controllers
+namespace BOMBEROSCR.F5.API.Controllers
 {
     public class ValuesController : ApiController
     {

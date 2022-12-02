@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using Plantilla.API.Areas.HelpPage.ModelDescriptions;
-using Plantilla.API.Areas.HelpPage.Models;
+using BOMBEROSCR.F5.API.Areas.HelpPage.ModelDescriptions;
+using BOMBEROSCR.F5.API.Areas.HelpPage.Models;
 
-namespace Plantilla.API.Areas.HelpPage
+namespace BOMBEROSCR.F5.API.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

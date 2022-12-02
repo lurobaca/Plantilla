@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using Plantilla.API.Areas.HelpPage.ModelDescriptions;
-using Plantilla.API.Areas.HelpPage.Models;
+using BOMBEROSCR.F5.API.Areas.HelpPage.ModelDescriptions;
+using BOMBEROSCR.F5.API.Areas.HelpPage.Models;
 
-namespace Plantilla.API.Areas.HelpPage.Controllers
+namespace BOMBEROSCR.F5.API.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

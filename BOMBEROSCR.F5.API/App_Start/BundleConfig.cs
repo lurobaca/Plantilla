@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Plantilla.API
+namespace BOMBEROSCR.F5.API
 {
     public class BundleConfig
     {

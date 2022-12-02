@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <IncludeSource>true</IncludeSource>
+    <Version>1.2.0</Version>
+    <PackageIcon>https://raw.githubusercontent.com/Alegrowin/OneSignal.RestAPIv3.Client/master/OneSignal.RestAPIv3.Client/onesignal_large_icon_default.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/Alegrowin/OneSignal.RestAPIv3.Client</PackageProjectUrl>
+    <PackageLicense>https://github.com/Alegrowin/OneSignal.RestAPIv3.Client/blob/master/LICENSE</PackageLicense>
+    <Description>One signal client targeting .Net Framework 4.5.2 and .Net Standard for .Net Core 2.0+ support.
+
+Feel Free to contribute! :)</Description>
+    <RepositoryUrl>https://github.com/Alegrowin/OneSignal.RestAPIv3.Client</RepositoryUrl>
+    <PackageTags>OneSignal .NetStandard2.0 .NetCore2.0 .NetFramework452 net452 netstandard2.0 netcoreapp2.0 Client MultiFramework</PackageTags>
+    <PackageReleaseNotes>Fixes the exception throwing mechanism
+</PackageReleaseNotes>
+    <ApplicationIcon />
+    <Win32Resource />
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+    <PackageId>OneSignal.RestAPIv3.Client</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="RestSharp" Version="106.0.1" />
+  </ItemGroup>
+
+</Project>
